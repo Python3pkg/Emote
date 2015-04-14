@@ -39,7 +39,7 @@ From master branch:
 .. code-block:: console
 
     $ git clone https://github.com/geowurster/Emote.git
-    $ cd emote
+    $ cd Emote
     $ python setup.py install
 
 
