@@ -21,7 +21,7 @@ def encode(emoji_name):
     Example:
 
         >>> import emote
-        >>> print(emote.encode('water'))
+        >>> print(emote.encode('water_wave'))
         🌊
         >>> print(emote.encode(':whale:'))
         🐋

@@ -10,9 +10,19 @@ Emote
 .. image:: https://coveralls.io/repos/geowurster/Emote/badge.svg?branch=master
     :target: https://coveralls.io/r/geowurster/Emote
 
-Simple emoji lookups for Python.
+Simple `emoji <http://www.unicode.org/Public/emoji/1.0/full-emoji-list.html>`__ lookups for Python.
 
-http://www.unicode.org/Public/emoji/1.0/full-emoji-list.html
+
+Examples
+========
+
+.. code-block:: python
+
+    import emote
+    print(emote.encode(':water_wave'))
+    🌊
+    print(emote.decode('🌊'))
+    water_wave
 
 
 Installation

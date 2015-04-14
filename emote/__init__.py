@@ -3,6 +3,12 @@
 
 """
 Simple emoji lookups for Python.
+
+>>> import emote
+>>> print(emote.encode(':water_wave'))
+🌊
+>>> print(emote.decode('🌊'))
+water_wave
 """
 
 
