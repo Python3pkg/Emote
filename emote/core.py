@@ -1,3 +1,6 @@
+# -*- coding: UTF-8 -*-
+
+
 """
 Core components for Emote
 """

@@ -1,3 +1,6 @@
+# -*- coding: UTF-8 -*-
+
+
 """
 Simple emoji lookups for Python.
 """
