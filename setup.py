@@ -39,7 +39,7 @@ with open(os.path.join('emote', '__init__.py')) as f:
             break
 
 setup(
-    name='emote',
+    name='Emote',
     author=author,
     author_email=email,
     classifiers=[
