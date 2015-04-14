@@ -9,10 +9,10 @@ Core components for Emote
 from . import emoji_codes
 
 
-__all__ = ['encode', 'decode']
+__all__ = ['lookup', 'decode']
 
 
-def encode(emoji_name):
+def lookup(emoji_name):
 
     """
     Given an emoji name return its unicode string.  Emoji names can be wrapped
@@ -21,9 +21,9 @@ def encode(emoji_name):
     Example:
 
         >>> import emote
-        >>> print(emote.encode('water_wave'))
+        >>> print(emote.lookup('water_wave'))
         🌊
-        >>> print(emote.encode(':whale:'))
+        >>> print(emote.lookup(':whale:'))
         🐋
 
     Parameters

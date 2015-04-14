@@ -5,7 +5,7 @@
 Simple emoji lookups for Python.
 
 >>> import emote
->>> print(emote.encode(':water_wave'))
+>>> print(emote.lookup(':water_wave'))
 🌊
 >>> print(emote.decode('🌊'))
 water_wave
@@ -17,7 +17,7 @@ from .emoji_codes import CODES
 from .emoji_codes import UNICODE_LOOKUP
 
 
-__version__ = '0.1'
+__version__ = '0.1.1'
 __author__ = 'Kevin Wurster'
 __email__ = 'wursterk@gmail.com'
 __source__ = 'https://github.com/geowurster/Emote'

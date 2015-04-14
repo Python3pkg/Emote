@@ -13,13 +13,13 @@ Emote
 Simple `emoji <http://www.unicode.org/Public/emoji/1.0/full-emoji-list.html>`__ lookups for Python.
 
 
-Examples
-========
+Example
+=======
 
 .. code-block:: python
 
     import emote
-    print(emote.encode(':water_wave'))
+    print(emote.lookup(':water_wave:'))
     🌊
     print(emote.decode('🌊'))
     water_wave
