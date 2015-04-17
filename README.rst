@@ -1,3 +1,15 @@
+===================
+EMOTE IS DEPRECATED
+===================
+
+Emote has merged with `emoji <https://github.com/carpedm20/emoji>`__ and will no longer be developed.
+
+.. code-block:: python
+
+    pip install uninstall emote
+    pip install emoji
+
+
 =====
 Emote
 =====

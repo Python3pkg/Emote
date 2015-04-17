@@ -12,12 +12,17 @@ water_wave
 """
 
 
+import warnings
+
 from .core import *
 from .emoji_codes import CODES
 from .emoji_codes import UNICODE_LOOKUP
 
 
-__version__ = '0.1.1'
+warnings.warn("Emote has been merged with emoji and will no longer be developed: https://github.com/carpedm20/emoji")
+
+
+__version__ = '0.1.2'
 __author__ = 'Kevin Wurster'
 __email__ = 'wursterk@gmail.com'
 __source__ = 'https://github.com/geowurster/Emote'
