@@ -1,13 +1,12 @@
-===================
-EMOTE IS DEPRECATED
-===================
+==========
+DEPRECATED
+==========
 
-Emote has merged with `emoji <https://github.com/carpedm20/emoji>`__ and will no longer be developed.
+Emote has merged with `emoji <https://github.com/carpedm20/emoji>`__.
 
-.. code-block:: python
+.. code-block:: console
 
-    pip install uninstall emote
-    pip install emoji
+    $ pip uninstall emote && pip install emote
 
 
 =====
