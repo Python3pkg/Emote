@@ -8,7 +8,7 @@ import emote
 
 def test_encode():
 
-    for code in emote.CODES.keys():
+    for code in list(emote.CODES.keys()):
         assert emote.lookup(code) == emote.CODES[code] == emote.lookup(':' + code + ':')
 
 
@@ -23,7 +23,7 @@ def test_encode_invalid_emoji():
 
 def test_decode():
 
-    for name, u_code in emote.CODES.items():
+    for name, u_code in list(emote.CODES.items()):
         assert emote.decode(u_code) == name
 
 
